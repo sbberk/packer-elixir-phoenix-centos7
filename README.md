@@ -11,12 +11,12 @@ Based on Jeff Geerling's [packer-centos-7](https://github.com/geerlingguy/packer
 All the software required for Phoenix development.
 
 * Erlang 19.0
-* Elixir 1.3.4
+* Elixir 1.4.2
     * Hex (latest)
     * Rebar (latest)
     * Phoenix (latest)
-* PostgreSQL 9.4 (user: postgres, password: postgres)
-* Node.js 5.x
+* PostgreSQL 9.6.2 (user: postgres, password: postgres)
+* Node.js 6.10
 
 This example build configuration installs and configures CentOS 7 x86_64 minimal using Ansible, and then generates two Vagrant box files, for:
 
